@@ -1,3 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 it creates a git repository with a .git file. use comands git init to initialize the new or existing directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+working directory - files in the directory (not committed)
+staging area - files (changes) to be committed
+git repository - files in the directory (committed)
+
+the staging area allows you to have more control over which files should be committed. 
